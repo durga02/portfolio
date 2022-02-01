@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Martial Arts</title>
+    <style>
+        body {
+            background-image: url("images/background.jpg");
+            background-position: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            outline: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 30px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="my-canvas" width="500" height="500"></canvas>
+    <div class="buttons">
+        <button id="kick">Kick (Arrow Left)</button>
+        <button id="punch">Punch (Arrow Right)</button>
+        <button id="forward">Forward (Arrow Up)</button>
+        <button id="backward">Backward (Arrow Down)</button>
+        <button id="block">Block (Arrow Space)</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
